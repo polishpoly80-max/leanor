@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets — never commit
+backend/.env
+
+# Build output
+frontend/dist/
+
+# Uploaded pictures (user data)
+backend/uploads/
+
+# Test / tooling artefacts
+shots/
+.playwright-mcp/
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

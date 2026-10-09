@@ -1,0 +1,1 @@
+"""API routers. One module per concern keeps `main.py` about wiring only."""
